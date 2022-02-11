@@ -1,63 +1,119 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<title>Rehber</title>
+<title>Kuşadası Rehber</title>
+<link rel="shortcut icon" type="image/ico" href="./images/14755.png">
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+  	$('#header').prepend('<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>');
+	
+	$("#menu-icon").on("click", function(){
+    $("nav").slideToggle();
+    $(this).toggleClass("active");
+});
+
+
+ </script>
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-<div class="wrapper row1">
-  <header id="header" class="clear">
-    <div id="hgroup">
-
-      <!--<h2>Free HTML5 Website Template</h2>-->
-    </div>
+  <div id="header">
+    <div class="logo">
+      <a href="#">Kuşadası Esnaf</a>
+    </div> 
     <nav>
-      <h1 style="font-size: 25px; float: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="#">KUŞADASI ESNAFI</a></h1>
+
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Text Link</a></li>
-        <li><a href="#">Text Link</a></li>
-        <li><a href="#">Text Link</a></li>
-        <li class="last"><a href="#">Text Link</a></li>
+        <li>
+          <a href=""></i>Ana Sayfa</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-home"></i>Ev</a>
+          <ul class="mega-dropdown">
+            <li class="row">
+              <ul class="mega-col">
+                <li><a href="#">Villa</a></li>
+                <li><a href="#">Havuzlu Evler</a></li>
+                <li><a href="#">Satılık Evler</a></li>
+                <li><a href="#">Kiralık Evler</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li><a href="#">Tokiler</a></li>
+                <li><a href="#">Yalılar</a></li>
+                <li><a href="#">Konaklar</a></li>
+                <li><a href="#">Köşkler</a></li>
+              </ul>
+            </li>
+          </ul>        
+        </li>
+        <li class="dropdown">
+          <a href=""><i class="fa fa-car"></i>Araba</a>
+            <ul>
+              <li><a href="#">Otomobil</a></li>
+              <li><a href="#">Spor Arabalar</a></li>
+              <li><a href="#">Otomobil Gündem</a></li>
+              <li><a href="#">Hatchback</a></li>
+            </ul>        
+        </li>
+        <li>
+          <a href=""><i class="fa fa-imdb" aria-hidden="true"></i>Eğlence</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-bank"></i>Tarih</a>
+        </li>
       </ul>
     </nav>
-  </header>
-</div>
+  </div>
 <!-- content -->
 <div class="wrapper row2">
   <div id="container" class="clear">
     <!-- Slider -->
-    <section id="slider"><a href="#"><img src="images/e.jpg" width="960px"  alt="Kuşadası Esnafı"></a></section>
+    <section id="slider"><a href="#"><img src="./images/e.jpg" width="960px"  alt="Kuşadası Esnafı"></a>
+      <figcaption>
+        <h2>Kuşadası Tarihçesi</h2>
+        <p>Kuşadası, 1413 yılında 1.Mehmet (Çelebi) tarafından Osmanlı egemenliğine katılmıştır. Bu tarihten sonra, şehir tamamen Türklerin elinde kalmış ve Türklerin yaptığı eserlerle dolmaya başlamıştır. Bunlardan bugünkü Kervansaray ve Kuşadası’nı çeviren surlar, Mehmet Paşa tarafından yaptırılmıştır.
+
+          Surlarla çevrili şehre o zaman ancak üç kapıdan girilebilmekteydi. Bu kapılardan bir tanesi, Barbaros Hayrettin Paşa Caddesi ile Kahramanlar Caddesi’ni birbirinden ayırmakta ve üst kısmı bugün Şehiriçi Trafik Bölge Amirliği olarak kullanılmaktadır. Diğer kapılar bugün mevcut değildir.
+          
+          Bizanslılar için önemli bir askeri üs görevini yapan Güvercinada, 1834 yılında büyük bir yenilenme görmüş ve ünlü kalesi yapılmıştır. “Kuşadası” adı bu kaleden gelmektedir.
+          
+          Kuşadası, Kurtuluş Savaşı’nda 1919-1921 yılları arasında İtalya’nın, onların çekilmesiyle Yunanistan’ın işgaline girmiş ve 7 Eylül 1922′de düşman işgalinden kurtulmuştur.</p>
+      </figcaption>
+    </section>
     <!-- main content -->
     <div id="homepage">
       <!-- Services -->
+      <div style="width: 100%; height: 2px; margin-bottom: 10px; background-color: #2F4B5D;"></div>
       <section id="services" class="clear">
         <article class="one_third">
-          <figure><img src="images/demo/290x180.gif" width="290" height="180" alt="">
+          <figure><img src="./images/1777K.jpg" width="290" height="180" alt="">
             <figcaption>
-              <h2>Indonectetus facilis</h2>
-              <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-              <footer class="more"><a href="#">Read More &raquo;</a></footer>
+              <h2>Kuşadası 1777</h2>
+              <p>1777 yılında Jan Christian Kamsetzer tarafından resmedilen Kuşadası.</p>
+              <footer class="more"><a href="#">Yakında... &raquo;</a></footer>
             </figcaption>
           </figure>
         </article>
         <article class="one_third">
-          <figure><img src="images/demo/290x180.gif" width="290" height="180" alt="">
+          <figure><img src="./images/KC.jpg" width="290" height="180" alt="">
             <figcaption>
-              <h2>Indonectetus facilis</h2>
-              <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-              <footer class="more"><a href="#">Read More &raquo;</a></footer>
+              <h2>Kuşadası Esnafları Memnun</h2>
+              <p>Kuşadası’nın Yenilenen Çarşıları Turist Akınına Uğruyor.</p>
+              <footer class="more"><a href="#">Yakında... &raquo;</a></footer>
             </figcaption>
           </figure>
         </article>
         <article class="one_third lastbox">
-          <figure><img src="images/demo/290x180.gif" width="290" height="180" alt="">
+          <figure><img src="./images/kusadasi-nda-feribot-seferleri-icin-hazirlikl-14727236_amp.jpg" width="290" height="180" alt="">
             <figcaption>
-              <h2>Indonectetus facilis</h2>
-              <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-              <footer class="more"><a href="#">Read More &raquo;</a></footer>
+              <h2>KUŞADASI'NDA FERİBOT SEFERLERİ İÇİN HAZIRLIKLAR BAŞLADI</h2>
+              <p>YUNANİSTAN'ın turistik adalarına pandemi nedeniyle 2 yıldır yapılamayan feribot seferlerindeki kısıtlamanın kaldırılması.</p>
+              <footer class="more"><a href="#">Yakında... &raquo;</a></footer>
             </figcaption>
           </figure>
         </article>
@@ -68,85 +124,19 @@
       <!-- ########################################################################################## -->
       <!-- ########################################################################################## -->
       <!-- Introduction -->
-      <section id="intro" class="last clear">
-        <article>
-          <figure><img src="images/demo/450x250.gif" width="450" height="250" alt="">
-            <figcaption>
-              <h2>Indonectetus facilis leo nibh</h2>
-              <p>This is a W3C compliant free website template from <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="https://www.os-templates.com/template-terms">website template licence</a>.</p>
-              <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit <a href="https://www.os-templates.com/">free website templates</a>.</p>
-              <footer class="more"><a href="#">Read More &raquo;</a></footer>
-            </figcaption>
-          </figure>
-        </article>
-      </section>
+      
       <!-- / Introduction -->
     </div>
     <!-- / content body -->
   </div>
 </div>
 <!-- Footer -->
-<div class="wrapper row3">
-  <div id="footer" class="clear">
-    <!-- Section One -->
-    <section class="one_quarter">
-      <h2 class="title">Link Block</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit</a></li>
-          <li><a href="#">Amet consectetur</a></li>
-          <li><a href="#">Praesent vel sem id</a></li>
-          <li><a href="#">Curabitur hendrerit est</a></li>
-          <li class="last"><a href="#">Sed a nulla urna</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!-- Section Two -->
-    <section class="one_quarter">
-      <h2 class="title">Link Block</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit</a></li>
-          <li><a href="#">Amet consectetur</a></li>
-          <li><a href="#">Praesent vel sem id</a></li>
-          <li><a href="#">Curabitur hendrerit est</a></li>
-          <li class="last"><a href="#">Sed a nulla urna</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!-- Section Three -->
-    <section class="one_quarter">
-      <h2 class="title">Link Block</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit</a></li>
-          <li><a href="#">Amet consectetur</a></li>
-          <li><a href="#">Praesent vel sem id</a></li>
-          <li><a href="#">Curabitur hendrerit est</a></li>
-          <li class="last"><a href="#">Sed a nulla urna</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!-- Section Four -->
-    <section class="one_quarter lastbox">
-      <h2 class="title">Link Block</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit</a></li>
-          <li><a href="#">Amet consectetur</a></li>
-          <li><a href="#">Praesent vel sem id</a></li>
-          <li><a href="#">Curabitur hendrerit est</a></li>
-          <li class="last"><a href="#">Sed a nulla urna</a></li>
-        </ul>
-      </nav>
-    </section>
+
     <!-- / Section -->
-  </div>
-</div>
 <!-- Copyright -->
 <div class="wrapper row4">
   <footer id="copyright" class="clear">
-    <p class="fl_center">Copyright &copy; 2018 - All Rights Reserved - <a href="#">esnafblabla.com</a></p>
+    <p class="fl_center">Kuşadası &copy; 2022 - Halkımızı Bilgilendirmek - <a href="./index.html">Bizim İşimiz</a></p>
   </footer>
 </div>
 </body>
